@@ -41,13 +41,19 @@ Description: The document is the code - a good documentation should be versionab
  - future technology stack
  - system evolution plan
 
+**5. Security**
+
+ - security standard. Is safety more important, or is the experience more important?
+ - data encrypt in the code.
+ - code security.
+
 ### Process
 
 **0. Project Process**
 
  - Project's Roadmap? Project duration, deadlive, etc.
  - features's lifecycle. Such as Story card workflow in agile
- - How to communicate? Such as agile daily meeting, teleconference, Retro, etc.
+ - How to communicate? Such as IM, Email and agile daily standup, remote meeting, Retro, etc.
 
 **1.Path to Development**
 
@@ -62,7 +68,7 @@ Note: different organizations have their own special situations, such as the ope
  - the process of golive's every step
  - related key people
  - the tools needed for each step
- - the process required for each step
+ - the process required for each step. such as quality assurance people & process, and golive process
 
 Note: Path to Production in the code is just a description - for developers, and here's a more detailed explanation.
 
@@ -143,14 +149,18 @@ Explanation: What are we doing, where are we going?
  - 未来的技术栈
  - 系统的演进方案
 
+**5. 安全**
+ - 安全标准。安全更重要，还是体验更重要？
+ - 代码中的数据加密。
+ - 代码安全。
+
 ### Process
 
 **0. Project Process**
 
  - 项目的 Roadmap？时间长短，上线时间等。
  - 项目功能的生命周期。如敏捷中的故事卡工作流
- - 沟通方式？如敏捷的每日站会，远程会议，Retro 等
-
+ - 沟通方式？如 IM，邮件，还有敏捷的每日站会，远程会议，Retro 等
 
 **1. Path to Development**
 
@@ -165,7 +175,7 @@ Explanation: What are we doing, where are we going?
  - 上线每一步的流程
  - 相关的关键人
  - 每一步所需要的工具
- - 每一步所需要的流程
+ - 每一步所需要的流程。如 QA 测试流程，上线流程
 
 说明：代码中的 Path to Production 只是一份说明——针对于开发人员的，而这里的则需要一个更详细的说明。
 
