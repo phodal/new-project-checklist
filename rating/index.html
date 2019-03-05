@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>New Project Checklist</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/mifa.css">
+</head>
+<body>
+<div id="body">
+  <div id="chart"></div>
+</div>
+
+<form id="input-section" onSubmit="return handleClick()">
+  <div id="sections"></div>
+  <input id="submit" name="Submit" type="submit" value="Submit">
+</form>
+
+<button id='saveButtonPng'>PNG</button>
+
+<script src="assets/FileSaver.min.js" type="application/javascript"></script>
+<script src="assets/canvas-to-blob.min.js" type="application/javascript"></script>
+<script src="assets/d3.v3.min.js" type="application/javascript"></script>
+<script>
+  window.allDimensions = {
+    cm: [
+      "Tech: Technology Vision",
+      "Tech: Documentation",
+      "Tech: Architecture",
+      "Tech: Code base",
+      "Tech: Project Evolution",
+      "Tech: Security",
+      "Process: Project Process",
+      "Process: Path to Development",
+      "Process: Path to Production",
+      "Process: Path to Roll Off",
+      "People: Teammate",
+      "People: Stakeholders",
+      "People: Cross-team collaboration",
+      "Business: Vision",
+      "Business: Business Process",
+      "Business: Cross-functional requirements",
+    ]
+  };
+
+  window.currentType = 'cm';
+
+  window.storagePreifx = window.currentType;
+  window.dimensionsArray = window.allDimensions[window.currentType];
+</script>
+<script src="src/RadarChart.js" type="application/javascript"></script>
+<script src="src/utils.js" type="application/javascript"></script>
+<script src="src/main.js" type="application/javascript"></script>
+
+</body>
+</html>
