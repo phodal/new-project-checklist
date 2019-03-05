@@ -26,7 +26,7 @@ class Filter {
     })
 
     // Add class to highlight button
-    button.classList.add('filter-active');
+    button && button.classList && button.classList.add('filter-active');
   }
 
   addFilter(el, storageName) {

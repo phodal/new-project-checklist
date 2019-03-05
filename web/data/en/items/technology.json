@@ -1,0 +1,14 @@
+[
+  {
+    "title": "技术远景",
+    "priority": "High",
+    "description": "在技术上，我们有什么追求",
+    "tags": ["all", "vision"]
+  },
+  {
+    "title": "文档",
+    "priority": "High",
+    "description": "文档即代码——好的文档应该是版本管理的。",
+    "tags": ["all", "vision"]
+  }
+]
