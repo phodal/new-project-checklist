@@ -36,6 +36,12 @@ Description: The document is the code - a good documentation should be versionab
 
 ### Process
 
+**0. Project Process**
+
+ - Project's Roadmap? Project duration, deadlive, etc.
+ - features's lifecycle. Such as Story card workflow in agile
+ - How to communicate? Such as agile daily meeting, teleconference, Retro, etc.
+
 **1.Path to Development**
 
  - development machine and network permission preparation and so on
@@ -75,6 +81,7 @@ Note: What do you need when you change a project?
 **3.Cross-team collaboration**
 
  - What are the relevant partners and who are the respective interfaces?
+ - Team in same project or organizations.
 
 ### Business
 
@@ -125,7 +132,15 @@ Explanation: What are we doing, where are we going?
 
 ### Process
 
+**0. Project Process**
+
+ - 项目的 Roadmap？时间长短，上线时间等。
+ - 项目功能的生命周期。如敏捷中的故事卡工作流
+ - 沟通方式？如敏捷的每日站会，远程会议，Retro 等
+
+
 **1. Path to Development**
+
  - 开发机申请及网络等权限准备
  - 代码库权限管理
  - 编辑器和相关的工具申请
@@ -133,6 +148,7 @@ Explanation: What are we doing, where are we going?
 说明：不同的的组织包含自身特别的情况，如 PC 端口、网络权限、代码库权限等的开通都需要一定的流程。
 
 **2. Path to Production**
+
  - 上线每一步的流程
  - 相关的关键人
  - 每一步所需要的工具
@@ -147,6 +163,7 @@ Explanation: What are we doing, where are we going?
 ### People
 
 **1. 团队成员**
+
  - 非技术问题找谁？
  - 团队成员的技术栈及水平
  - 每个人的技术水平，应该怎么带：Coach, Pairing, Tech
@@ -154,11 +171,14 @@ Explanation: What are we doing, where are we going?
  - 1 to 1 Meetings
 
 **2. 利益相关者**
+
  - 了解各个相关者（Level 1）。如作为一个开发人员，大部分时间并不会和利益相关者有直接的沟通。
  - 和相关者保持沟通（Level 2）。适当的沟通，可以帮助项目更好地进行。
 
 **3. 跨团队协作**
+
  - 相关的合作方有哪些，各自的接口人是谁？
+ - 同组织、项目下的其它团队。
 
 ### Business
 
@@ -167,11 +187,13 @@ Explanation: What are we doing, where are we going?
 说明：我们在做什么，我们要去哪里？
 
 **1. 业务需求**
+
  - 有没有接近全的需求列表。在一定的时间（如迭代内），需求应该是稳定的。
  - 需求是如何从口头到待办列表的？中间是不是存在不规范的问题
  - 业务是如何进行变更的？
 
 **2. 跨功能需求**
+
  - 运行质量。在系统运作时观察到的质量，例如保安性及易用性等
  - 演进质量。软件系统结构及开发过程有关的质量，例如软件可测试性、可维护性、可扩展性、可伸缩性（scalability）等
 
