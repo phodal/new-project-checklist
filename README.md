@@ -1,2 +1,95 @@
-# new-project-checklist
-a checklist for new project setup
+# New Project Checklist
+
+
+## English
+
+
+
+## 中文（Chinese）
+
+
+### Tech
+
+**0. 技术远景**
+
+说明：在技术上，我们有什么追求？
+
+**1. 文档**
+ - Path to Production
+ - 上线及发布日记
+ - 项目相关的 wiki 和文档记录
+
+说明：文档即代码——好的文档应该是版本管理的。
+
+**2. 架构**
+  - 系统相关的架构图，如 C4Model 方式描述
+  - 现有的技术栈及其关系
+
+**3. 代码库**
+ - 搭建指南
+ - 架构决策记录
+ - 编辑器配置和代码风格规范
+ - 模式和风格指南
+
+**4. 项目演进**
+ - 未来的技术栈
+ - 系统的演进方案
+
+### Process
+
+**1. Path to Development**
+ - 开发机申请及网络等权限准备
+ - 代码库权限管理
+ - 编辑器和相关的工具申请
+
+说明：不同的的组织包含自身特别的情况，如 PC 端口、网络权限、代码库权限等的开通都需要一定的流程。
+
+**2. Path to Production**
+ - 上线每一步的流程
+ - 相关的关键人
+ - 每一步所需要的工具
+ - 每一步所需要的流程
+
+说明：代码中的 Path to Production 只是一份说明——针对于开发人员的，而这里的则需要一个更详细的说明。
+
+**3. Path to Roll Off**
+ 
+说明：换一个项目时，需要哪些东西？
+
+### People
+
+**1. 团队成员**
+ - 非技术问题找谁？
+ - 团队成员的技术栈及水平
+ - 每个人的技术水平，应该怎么带：Coach, Pairing, Tech
+ - 项目无关的技术，可以找谁一起“娱乐”？
+ - 1 to 1 Meetings
+
+**2. 利益相关者**
+ - 了解各个相关者（Level 1）。如作为一个开发人员，大部分时间并不会和利益相关者有直接的沟通。
+ - 和相关者保持沟通（Level 2）。适当的沟通，可以帮助项目更好地进行。
+
+**3. 跨团队协作**
+ - 相关的合作方有哪些，各自的接口人是谁？
+
+### Business
+
+**0. 业务远景**
+
+说明：我们在做什么，我们要去哪里？
+
+**1. 业务需求**
+ - 有没有接近全的需求列表。在一定的时间（如迭代内），需求应该是稳定的。
+ - 需求是如何从口头到待办列表的？中间是不是存在不规范的问题
+ - 业务是如何进行变更的？
+
+**2. 跨功能需求**
+ - 运行质量。在系统运作时观察到的质量，例如保安性及易用性等
+ - 演进质量。软件系统结构及开发过程有关的质量，例如软件可测试性、可维护性、可扩展性、可伸缩性（scalability）等
+
+License
+---
+
+[![Phodal's Idea](http://brand.phodal.com/shields/idea-small.svg)](http://ideas.phodal.com/)
+
+© 2019 A [Phodal Huang](https://www.phodal.com)'s [Idea](http://github.com/phodal/ideas).  This code is distributed under the MIT license. See `LICENSE` in this directory.
