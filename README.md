@@ -3,6 +3,13 @@
 
 ## English
 
+Focus on four dimensions:
+
+ - Process, focusing on processes from permissions management, code acquisition, deployment, and code integration.
+ - People, connecting stakeholders, third-party partners (out-of-organization), collaborative teams (within the organization), team members, and more.
+ - Tech, including technical vision, documentation (documents), project code, technology stack, software library management, etc.
+ - Business, covering the requirements of business features such as business vision, business needs, and cross-functional requirements.
+
 ### Tech
 
 **0. Technology Vision**
@@ -102,6 +109,12 @@ Explanation: What are we doing, where are we going?
 
 ## 中文（Chinese）
 
+关注于四个维度：
+
+ - Process，关注于从权限管理、获取代码、部署上线、代码集成等的流程。
+ - People，连接利益相关者、第三方合作伙伴（组织外）、协作团队（组织内）、团队成员等相关的人。
+ - Tech，包含了技术远景、文档（文档即代码）、项目代码、技术栈、软件库管理等。
+ - Business，涵盖了业务远景、业务需求、跨功能需求等业务相关功能的需求。
 
 ### Tech
 
