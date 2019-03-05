@@ -3,7 +3,84 @@
 
 ## English
 
+### Tech
 
+**0. Technology Vision**
+
+Description: In terms of technology, what are we pursuing?
+
+**1. Documentation**
+ - Path to Production
+ - golive and release diary
+ - other wikis and documentation
+
+Description: The document is the code - a good documentation should be versionable.
+
+**2. Architecture**
+  - system architecture diagram, such as C4Model mode
+  - existing technology stacks and their relationships
+
+**3. Code base**
+ - construction guide
+ - architecture decision record
+ - editor configuration and code style specification
+ - mode and style guide
+
+**4. Project Evolution**
+ - future technology stack
+ - system evolution plan
+
+### Process
+
+**1. Path to Development**
+ - development machine and network permission preparation and so on
+ - code repositroy permission management
+ - editor and related tool application setup
+
+Note: different organizations have their own special situations, such as the opening of PC ports, network permissions, codebase permissions, etc., which require a certain process.
+
+**2. Path to Production**
+ - the process of golive's every step
+ - related key people
+ - the tools needed for each step
+ - the process required for each step
+
+Note: Path to Production in the code is just a description - for developers, and here's a more detailed explanation.
+
+**3. Path to Roll Off**
+ 
+Note: What do you need when you change a project?
+
+### People
+
+**1. Teammate**
+ - Who are you looking for each problem? 
+ - Team members' technical stack and level
+ - How to bring everyone's skill level: Coach, Pairing, Tech
+ - Project-independent technology, who can find "entertainment" together?
+ - 1 to 1 Meetings
+
+**2. Stakeholders**
+ - Learn about each stakeholder (Level 1). As a developer, most of the time there is no direct communication with stakeholders.
+ - Stay in communication with the stakeholders (Level 2). Proper communication can help the project to work better.
+
+**3. Cross-team collaboration**
+ - What are the relevant partners and who are the respective interfaces?
+
+### Business
+
+**0. Business Vision**
+
+Explanation: What are we doing, where are we going?
+
+**1. Business**
+ - Is there a list of requirements that are close to full? At a certain time (such as iterations), the demand should be stable.
+ - How does demand go from verbal to to-do list? Is there an irregular problem in the middle?
+ - How is the business changed?
+
+**2. Cross-functional requirements**
+ - Operational quality. Quality observed during system operation, such as security and ease of use
+ - Evolution quality. Software system structure and quality related to the development process, such as software testability, maintainability, scalability, scalability, etc.
 
 ## 中文（Chinese）
 
