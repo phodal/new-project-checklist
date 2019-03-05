@@ -85,7 +85,7 @@ Note: What do you need when you change a project?
 
  - Who are you looking for each problem? 
  - Team members' technical stack and level
- - How to bring everyone's skill level: Coach, Pairing, Tech
+ - How to bring everyone's skill level: Coach, Pairing, Teach
  - Project-independent technology, who can find "entertainment" together?
  - 1 to 1 Meetings
 
@@ -192,14 +192,14 @@ Explanation: What are we doing, where are we going?
 
  - 非技术问题找谁？
  - 团队成员的技术栈及水平
- - 每个人的技术水平，应该怎么带：Coach, Pairing, Tech
+ - 每个人的技术水平，应该怎么带：Coach（教练式）, Pairing（结对式）, Teach（教学式）
  - 项目无关的技术，可以找谁一起“娱乐”？
  - 1 to 1 Meetings
 
 **2. 利益相关者**
 
  - 了解各个相关者（Level 1）。如作为一个开发人员，大部分时间并不会和利益相关者有直接的沟通。
- - 和相关者保持沟通（Level 2）。适当的沟通，可以帮助项目更好地进行。
+ - 和相关者保持沟通（Level 2）。适当沟通，可以帮助项目更好地进行。
 
 **3. 跨团队协作**
 
