@@ -4,6 +4,10 @@
  - [English](#english)
  - [中文（Chinese）](#中文chinese)
 
+Rating Tools: [https://phodal.github.io/new-project-checklist/rating/](https://phodal.github.io/new-project-checklist/rating/)
+
+Web: TBC
+
 ## English
 
 Focus on four dimensions:
