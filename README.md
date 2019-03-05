@@ -99,6 +99,11 @@ Note: What do you need when you change a project?
  - [ ] What are the relevant partners and who are the respective interfaces?
  - [ ] Team in same project or organizations.
 
+**4.Users**
+
+ - [ ] Who is the user? Are we in direct contact with them?
+ - [ ] Feedback loop. How does a user's feedback become requirements?
+
 ### Business
 
 **0.Business Vision**
@@ -205,6 +210,11 @@ Explanation: What are we doing, where are we going?
 
  - [ ] 相关的合作方有哪些，各自的接口人是谁？
  - [ ] 同组织、项目下的其它团队。
+
+**4. 用户**
+
+ - [ ] 用户是谁？我们是否与他们直接接触？
+ - [ ] 反馈环。一个用户的反馈是如何变成需求的？
 
 ### Business
 
