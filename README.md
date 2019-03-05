@@ -1,6 +1,9 @@
 # New Project Checklist
 
 
+ - [English](#english)
+ - [中文（Chinese）](#中文chinese)
+
 ## English
 
 Focus on four dimensions:
