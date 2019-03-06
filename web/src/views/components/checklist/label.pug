@@ -40,10 +40,3 @@
             each video, i in item.video
               li
                 a(href=`${video.url}`, target="_blank", rel="noopener noreferrer")= video.title
-
-  .c-tags
-    ul.c-tags__list
-      each tag in item.tags
-        if tag == 'all'
-        else
-          li.c-tags__item= tag.toUpperCase()

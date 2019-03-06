@@ -46,3 +46,10 @@
               each subitem, i in item.subitems
                 li
                   span.label__title #{subitem.title} #{subitem.description ? ':' : ''} #{subitem.description}
+
+        .c-tags
+          ul.c-tags__list
+            each tag in item.tags
+              if tag === 'all'
+              else
+                li.c-tags__item= tag.toUpperCase()
