@@ -45,4 +45,4 @@
             ul.subitems__list
               each subitem, i in item.subitems
                 li
-                  span.label__title #{subitem.title} : #{subitem.description}
+                  span.label__title #{subitem.title} #{subitem.description ? ':' : ''} #{subitem.description}

@@ -8,11 +8,6 @@
     ],
     "documentation": [
     ],
-    "subitems": [
-      {
-        "title": "技术远景"
-      }
-    ],
     "tags": [
       "all",
       "vision"
@@ -42,6 +37,15 @@
     "title": "架构",
     "priority": "High",
     "description": "系统相关的架构图，如 C4Model 方式描述\n 现有的技术栈及其关系",
+    "subitems": [
+      {
+        "title": "系统相关的架构图",
+        "description": "如 C4Model 方式描述"
+      },
+      {
+        "title": "现有的技术栈及其关系"
+      }
+    ],
     "tags": [
       "all",
       "technology"
@@ -50,7 +54,21 @@
   {
     "title": "代码库",
     "priority": "High",
-    "description": "搭建指南\n 架构决策记录\n 编辑器配置和代码风格规范\n 模式和风格指南",
+    "description": "代码相关规范",
+    "subitems": [
+      {
+        "title": "搭建指南"
+      },
+      {
+        "title": "架构决策记录"
+      },
+      {
+        "title": "编辑器配置和代码风格规范"
+      },
+      {
+        "title": "模式和风格指南"
+      }
+    ],
     "tags": [
       "all",
       "technology"
@@ -60,6 +78,14 @@
     "title": "项目演进",
     "priority": "High",
     "description": "未来的技术栈\n 系统的演进方案",
+    "subitems": [
+      {
+        "title": "未来的技术栈"
+      },
+      {
+        "title": "系统的演进方案"
+      }
+    ],
     "tags": [
       "all",
       "technology"
@@ -68,7 +94,19 @@
   {
     "title": "安全",
     "priority": "High",
-    "description": " 安全标准。安全更重要，还是体验更重要？\n 代码中的数据加密。\n 代码安全",
+    "description": "安全事件",
+    "subitems": [
+      {
+        "title": "安全标准",
+        "description": "安全更重要，还是体验更重要？"
+      },
+      {
+        "title": "代码中的数据加密"
+      },
+      {
+        "title": "代码安全"
+      }
+    ],
     "tags": [
       "all",
       "technology"
