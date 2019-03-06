@@ -94,6 +94,10 @@
   margin-left: 20px;
   padding-bottom: 20px;
 
+  h4 {
+    color: #606060;
+  }
+
   ul {
     padding-inline-start: 20px;
   }
@@ -101,5 +105,13 @@
   ul li span {
     font-size: 12px !important;
     line-height: 14px;
+  }
+
+  li.c-checklist__column {
+    order: 1;
+  }
+
+  span.label__title {
+    order: 2;
   }
 }
