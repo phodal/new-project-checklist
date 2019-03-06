@@ -4,7 +4,7 @@
     span.label__title= item.title + ': '
     span.label__description #{item.description}
 
-  if item.tools || item.documentation || item.code || item.video
+  if item.tools || item.documentation || item.code || item.video || item.subitems
     .c-checklist__details.js-details
 
       if item.detail
@@ -23,8 +23,15 @@
             each documentation, i in item.documentation
               li
                 if documentation.url && documentation.title
-                  img.c-checklist__favicon(src="/img/icons/1x1.png" data-src=`https://www.google.com/s2/favicons?domain_url=${documentation.url}`, alt="")
                   a(href=`${documentation.url}`, target="_blank", rel="noopener noreferrer")= documentation.title
+
+      if item.subitems
+        .c-checklist__subitems
+          h4= translation.SECTION_SUBITEMS
+          ul.subitems__list
+             each subitem, i in item.subitems
+              li
+                span.label__title #{subitem}
 
       if item.tools
         .c-checklist__tools
@@ -32,7 +39,6 @@
           ul.documentation__list
             each tool, i in item.tools
               li
-                img.c-checklist__favicon(src="/img/icons/1x1.png" data-src=`https://www.google.com/s2/favicons?domain_url=${tool.url}`, alt="")
                 a(href=`${tool.url}`, target="_blank", rel="noopener noreferrer")= tool.title
 
       if item.video
@@ -41,7 +47,6 @@
           ul.video__list
             each video, i in item.video
               li
-                img.c-checklist__favicon(src="/img/icons/1x1.png" data-src=`https://www.google.com/s2/favicons?domain_url=${video.url}`, alt="")
                 a(href=`${video.url}`, target="_blank", rel="noopener noreferrer")= video.title
 
   .c-tags
