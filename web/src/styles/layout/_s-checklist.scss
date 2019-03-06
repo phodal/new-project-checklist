@@ -105,10 +105,11 @@
   ul li span {
     font-size: 12px !important;
     line-height: 14px;
+    margin-left: 12px;
   }
 
   li.c-checklist__column {
-    order: 1;
+    display: flex;
   }
 
   span.label__title {

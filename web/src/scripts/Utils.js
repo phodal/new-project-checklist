@@ -9,7 +9,7 @@ class Utils {
     return instance;
   }
 
-  variableList(el) {
+   variableList(el) {
     const section = instance.getClosest(el, '.js-section');
     const sectionName = section.getAttribute('data-section');
     const sectionId = section.getAttribute('data-section-id');

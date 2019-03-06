@@ -44,9 +44,9 @@
             h4= translation.SECTION_SUBITEMS
             div.c-checklist__body
               ul.subitems__list
-                each subitem, i in item.subitems
+                each subitem, j in item.subitems
                   li.c-checklist__column
-                    input(type="checkbox" name=`c-checklist__item-${subitem.title.toLowerCase()}-${i}` id=`c-checklist__item-${subitem.title.toLowerCase()}-${i}`)
+                    input(type="checkbox" name=`c-checklist__item-${i}-subitem-${j}` id=`c-checklist__item-${i}-subitem-${j}`)
                     +svg-icon.icon.icon-checkbox(data-icon-name='check')
                     +svg-icon.icon.icon-checked(data-icon-name='check')
 
