@@ -89,3 +89,17 @@
     text-align: center;
   }
 }
+
+.c-checklist__subitems {
+  margin-left: 20px;
+  padding-bottom: 20px;
+
+  ul {
+    padding-inline-start: 20px;
+  }
+
+  ul li span {
+    font-size: 12px !important;
+    line-height: 14px;
+  }
+}
