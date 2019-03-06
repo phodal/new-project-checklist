@@ -31,7 +31,7 @@
           ul.subitems__list
              each subitem, i in item.subitems
               li
-                span.label__title #{subitem}
+                span.label__title #{subitem.title} : #{subitem.description}
 
       if item.tools
         .c-checklist__tools
