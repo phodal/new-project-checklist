@@ -16,7 +16,7 @@
   "SECTION_TOOL": "Tools",
   "SECTION_VIDEO": "Videos",
   "SECTION_TAG": "Filter by tags",
-  "SECTION_SUBITEMS": "Sub-Items",
+  "SECTION_SUBITEMS": "Sub-Item",
   "alert": {
     "JAVASCRIPT_DESACTIVATE": "Your JavaScript seems to be desactivated. Please enable your JavaScript to use all functionnalities of the Front-End Checklist."
   },

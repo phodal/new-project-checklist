@@ -10,8 +10,7 @@
     ],
     "subitems": [
       {
-        "title": "技术远景",
-        "description": "技术远景是指"
+        "title": "技术远景"
       }
     ],
     "tags": [
@@ -23,6 +22,17 @@
     "title": "文档",
     "priority": "High",
     "description": "文档即代码——好的文档应该是版本管理的。",
+    "subitems": [
+      {
+        "title": "Path to Production"
+      },
+      {
+        "title": " 上线及发布日记"
+      },
+      {
+        "title": "项目相关的 wiki 和文档记录"
+      }
+    ],
     "tags": [
       "all",
       "technology"

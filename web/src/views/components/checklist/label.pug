@@ -25,14 +25,6 @@
                 if documentation.url && documentation.title
                   a(href=`${documentation.url}`, target="_blank", rel="noopener noreferrer")= documentation.title
 
-      if item.subitems
-        .c-checklist__subitems
-          h4= translation.SECTION_SUBITEMS
-          ul.subitems__list
-             each subitem, i in item.subitems
-              li
-                span.label__title #{subitem.title} : #{subitem.description}
-
       if item.tools
         .c-checklist__tools
           h4= translation.SECTION_TOOL
