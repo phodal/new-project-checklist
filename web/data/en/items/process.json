@@ -3,6 +3,27 @@
     "title": "Project Process",
     "priority": "High",
     "description": "完成业务需求的基本流程",
-    "tags": ["all", "vision"]
+    "tags": ["all", "process"]
+  },
+  {
+    "title": "Path to Development",
+    "priority": "High",
+    "description": "不同的的组织包含自身特别的情况，如 PC 端口、网络权限、代码库权限等的开通都需要一定的流程。",
+    "tags": ["all", "process"]
+  },
+  {
+    "title": "Path to Production",
+    "priority": "High",
+    "description": "代码中的 Path to Production 只是一份说明——针对于开发人员的，而这里的则需要一个更详细的说明。",
+    "subitems": [
+
+    ],
+    "tags": ["all", "process"]
+  },
+  {
+    "title": "Path to Roll Off",
+    "priority": "Low",
+    "description": "换一个项目时，需要哪些东西？",
+    "tags": ["all", "process"]
   }
 ]

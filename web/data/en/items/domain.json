@@ -3,6 +3,18 @@
     "title": "业务远景",
     "priority": "High",
     "description": "我们在做什么，我们要去哪里？",
-    "tags": ["all", "vision"]
+    "tags": ["all", "domain"]
+  },
+  {
+    "title": "业务需求",
+    "priority": "Medium",
+    "description": "有没有接近全的需求列表。在一定的时间（如迭代内），需求应该是稳定的。\n",
+    "tags": ["all", "domain"]
+  },
+  {
+    "title": "跨功能需求",
+    "priority": "High",
+    "description": "在系统运作时观察到的质量，例如保安性及易用性等\n",
+    "tags": ["all", "domain"]
   }
 ]

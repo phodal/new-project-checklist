@@ -108,7 +108,7 @@ Note: What do you need when you change a project?
  - [ ] Who is the user? Are we in direct contact with them?
  - [ ] Feedback loop. How does a user's feedback become requirements?
 
-### Business
+### Domain
 
 **0.Business Vision**
 
