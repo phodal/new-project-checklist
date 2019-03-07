@@ -72,8 +72,9 @@ class Checkboxes {
 
       if (subItemId) {
         section.setAttribute('data-subitem-check', 'true');
+      } else {
+        item.setAttribute('data-item-check', 'true');
       }
-      item.setAttribute('data-item-check', 'true');
 
       new Notation().updatePriority();
 
@@ -126,10 +127,10 @@ class Checkboxes {
         // Change data-check attribute to uncheck item
         new Utils().visibityEl(list.item, '.js-dropdown');
 
-        list.item.setAttribute('data-item-check', 'false');
-
         if (list.subItemId) {
           list.section.setAttribute('data-subitem-check', 'false');
+        } else {
+          list.item.setAttribute('data-item-check', 'false');
         }
 
         new Notation().updatePriority();
