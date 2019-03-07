@@ -60,10 +60,17 @@ class ProgressBar {
       case 'main':
         progressBar = section.querySelector('.js-all-progress');
         break;
-
+      case 'sub':
+        progressBar = section.querySelector('.js-sub-progress');
+        break;
       default:
         progressBar = section.querySelector('.js-progress');
         break;
+    }
+
+    console.log(section, type, progressBar)
+    if (type === 'sub' || !progressBar) {
+      return;
     }
 
     const getPercent = parseInt(checkedItems / totalItems * 100, 10);

@@ -10,9 +10,14 @@ class Utils {
   }
 
    variableList(el) {
-    const section = instance.getClosest(el, '.js-section');
+    let section = instance.getClosest(el, '.js-section');
     const sectionName = section.getAttribute('data-section');
     const sectionId = section.getAttribute('data-section-id');
+    const subItemId = section.getAttribute('data-sub-id');
+
+    if (subItemId) {
+      section = instance.getClosest(el, '.js-sub-section');
+    }
 
     const item = instance.getClosest(el, '.js-item ');
 
@@ -34,6 +39,7 @@ class Utils {
       itemId,
       itemCheck,
       itemDropdown,
+      subItemId,
     };
   }
 

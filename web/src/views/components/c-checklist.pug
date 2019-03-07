@@ -41,11 +41,11 @@
 
         if item.subitems
           .c-checklist__subitems
-            //h4= translation.SECTION_SUBITEMS
-            div.c-checklist__body
-              ul.subitems__list
+
+            section.c-checklist__body
+              ul.subitems__list.js-sub-section(data-subitem-check="false", data-section=item.title.toLowerCase(), data-section-id=`${i}`)
                 each subitem, j in item.subitems
-                  li.c-checklist__column
+                  li.c-checklist__column.c-checklist__subitem(data-sub-id=`item-${j}-sub-${i}`)
                     input(type="checkbox" name=`c-checklist__item-${i}-subitem-${j}` id=`c-checklist__item-${i}-subitem-${j}`)
                     +svg-icon.icon.icon-checkbox(data-icon-name='check')
                     +svg-icon.icon.icon-checked(data-icon-name='check')

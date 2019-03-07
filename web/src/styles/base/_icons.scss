@@ -59,6 +59,14 @@ button,
   [data-item-check='true'] & {
     display: none;
   }
+
+  [data-subitem-check='false'].c-checklist__subitem & {
+    display: block;
+  }
+
+  [data-subitem-check='true'].c-checklist__subitem & {
+    display: none;
+  }
 }
 
 .icon-checked {
@@ -70,6 +78,14 @@ button,
   }
 
   [data-item-check='true'] & {
+    display: block;
+  }
+
+  [data-subitem-check='false'].c-checklist__subitem & {
+    display: none;
+  }
+
+  [data-subitem-check='true'].c-checklist__subitem & {
     display: block;
   }
 }

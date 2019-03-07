@@ -86,6 +86,7 @@ class Storage {
             list.item,
             storage,
             'state',
+            list.subItemId,
           );
         } else {
           console.log('error');
@@ -102,6 +103,7 @@ class Storage {
           list.item,
           storage,
           'state',
+          list.subItemId,
         );
       } else {
         console.log('error');

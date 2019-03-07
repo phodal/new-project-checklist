@@ -19,7 +19,7 @@ class Checkboxes {
     return instance;
   }
 
-  checkItem(idNumber, section, sectionName, item, storage, type) {
+  checkItem(idNumber, section, sectionName, item, storage, type, subItemId) {
 
     const storageData = storage;
 
@@ -58,7 +58,12 @@ class Checkboxes {
       ).length;
 
       // Update progress bar
-      new ProgressBar().updateProgressBar(section, nbrItemsChecked);
+      if (subItemId) {
+        new ProgressBar().updateProgressBar(section, nbrItemsChecked, 'sub');
+      } else {
+        new ProgressBar().updateProgressBar(section, nbrItemsChecked);
+      }
+
       new Notation().updateNotation();
 
       new Utils().visibityEl(item, '.c-tags', 'hide');
@@ -104,7 +109,13 @@ class Checkboxes {
           localStorage.getItem(list.sectionName),
         ).length;
 
-        new ProgressBar().updateProgressBar(list.section, nbrItemsChecked);
+        // Update progress bar
+        if (list.subItemId) {
+          new ProgressBar().updateProgressBar(list.section, nbrItemsChecked, 'sub');
+        } else {
+          new ProgressBar().updateProgressBar(list.section, nbrItemsChecked);
+        }
+
         new Notation().updateNotation();
         new Utils().visibityEl(list.item, '.c-tags');
 
@@ -126,7 +137,6 @@ class Checkboxes {
     // List of all variables needed for checking item
     const list = new Utils().variableList(el);
     if (el.checked) {
-      console.log(list)
       // Check item if unchecked
       new Storage().checkingItem(list);
     } else {
