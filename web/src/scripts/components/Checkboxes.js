@@ -149,6 +149,7 @@ class Checkboxes {
     const allCheckboxes = document.querySelectorAll('input[type=checkbox]');
     allCheckboxes.forEach(el => {
       // Add a click event listener on all checkboxes
+      console.log(el)
       el.addEventListener('click', () => instance.checkboxDetection(el));
     });
   }

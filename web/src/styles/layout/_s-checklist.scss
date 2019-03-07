@@ -115,6 +115,7 @@ body .c-checklist__body input {
 
   li.c-checklist__column {
     display: flex;
+    position: relative;
   }
 
   span.label__title {
