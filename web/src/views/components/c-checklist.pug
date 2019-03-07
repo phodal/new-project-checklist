@@ -19,7 +19,7 @@
       //- data-item-id (number) => the ID of the elements based on dataSection array
       //- data-item-dropdown (open close or false) => State of the dropdown
       //- data-item-visible (true or false) => Visibility of the item used by the tag filter
-      li.c-checklist__item.js-item(class=` ${allClass}`, data-item-priority=priorityClass ,data-item-id=i, data-item-check="false", data-item-dropdown=dataItemDropdown, data-item-visible="true" aria-hidden="false")
+      li.c-checklist__item.js-item(class=` ${allClass}`, data-item-priority=priorityClass , data-item-id=i, data-item-check="false", data-item-dropdown=dataItemDropdown, data-item-visible="true" aria-hidden="false")
 
         .c-checklist__item__inner
 
@@ -45,7 +45,7 @@
             section.c-checklist__body
               ul.subitems__list
                 each subitem, j in item.subitems
-                   li.c-checklist__column.c-checklist__subitem.js-sub-section(data-subitem-check="false", data-section=item.title.toLowerCase(), data-section-id=`${i}`, data-sub-id=`item-${i}-sub-${j}`)
+                   li.c-checklist__column.c-checklist__subitem.js-sub-section(data-subitem-check="false", data-section=item.title.toLowerCase(), data-subsection-id=`${i}`, data-sub-id=`item-${i}-sub-${j}`)
                     input(type="checkbox" data-type='subitem' name=`c-checklist__item-${i}-subitem-${j}` id=`c-checklist__item-${i}-subitem-${j}`)
                     +svg-icon.icon.icon-checkbox(data-icon-name='check')
                     +svg-icon.icon.icon-checked(data-icon-name='check')

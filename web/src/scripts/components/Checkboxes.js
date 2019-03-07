@@ -66,14 +66,18 @@ class Checkboxes {
 
       new Notation().updateNotation();
 
-      new Utils().visibityEl(item, '.c-tags', 'hide');
-      new Utils().visibityEl(item, '.js-dropdown', 'hide');
+      if (!subItemId) {
+        new Utils().visibityEl(item, '.c-tags', 'hide');
+        new Utils().visibityEl(item, '.js-dropdown', 'hide');
+      }
 
 
       if (subItemId) {
         section.setAttribute('data-subitem-check', 'true');
+        return;
       } else {
         item.setAttribute('data-item-check', 'true');
+        new Utils().checkSubItems(item);
       }
 
       new Notation().updatePriority();
@@ -129,8 +133,10 @@ class Checkboxes {
 
         if (list.subItemId) {
           list.section.setAttribute('data-subitem-check', 'false');
+          return;
         } else {
           list.item.setAttribute('data-item-check', 'false');
+          new Utils().uncheckSubItems(list.item);
         }
 
         new Notation().updatePriority();

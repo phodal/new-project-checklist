@@ -1,5 +1,5 @@
 .c-checklist__column.c-checklist__label
-  label(for=`c-checklist__item-${sectionTitle.toLowerCase()}-${i}`)
+  label(for=`c-checklist__item-${encodeURI(sectionTitle)}-${i}`)
 
     span.label__title= item.title + ': '
     span.label__description #{item.description}

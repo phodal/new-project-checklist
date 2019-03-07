@@ -13,7 +13,7 @@ mixin checklist-section(options)
 
 
   //- Section
-  section.s-checklist.js-section(class="s-checklist__" + sectionTitle.toLowerCase(), data-section=sectionTitle.toLowerCase(), data-section-id=`${listSectionId.length-1}`, id="section-" + sectionTitle.toLowerCase())
+  section.s-checklist.js-section(class="s-checklist__" + sectionTitle.toLowerCase(), data-section=sectionTitle.toLowerCase(), data-section-id=`${listSectionId.length-1}`, id="section-" + encodeURI(sectionTitle))
     .s-checklist__inner
       .s-checklist__header
 

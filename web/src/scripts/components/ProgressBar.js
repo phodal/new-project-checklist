@@ -68,7 +68,6 @@ class ProgressBar {
         break;
     }
 
-    console.log(section, type, progressBar)
     if (type === 'sub' || !progressBar) {
       return;
     }

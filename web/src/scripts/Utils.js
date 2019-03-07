@@ -9,6 +9,26 @@ class Utils {
     return instance;
   }
 
+  checkSubItems(el) {
+    let section = instance.getClosest(el, '.js-section');
+    let sectionId = section.getAttribute('data-section-id');
+    let itemId = el.getAttribute('data-item-id');
+    let elements = document.querySelectorAll(`[data-section-id="${sectionId}"]  [data-item-id="${itemId}"] .js-sub-section`);
+    for (let i = 0; i < elements.length; i++) {
+      elements[i].setAttribute('data-subitem-check', 'true')
+    }
+  }
+
+  uncheckSubItems(el) {
+    let section = instance.getClosest(el, '.js-section');
+    let sectionId = section.getAttribute('data-section-id');
+    let itemId = el.getAttribute('data-item-id');
+    let elements = document.querySelectorAll(`[data-section-id="${sectionId}"]  [data-item-id="${itemId}"] .js-sub-section`);
+    for (let i = 0; i < elements.length; i++) {
+      elements[i].setAttribute('data-subitem-check', 'false')
+    }
+  }
+
   variableList(el) {
     let section;
     let isSubItem = el.getAttribute('data-type') === 'subitem';
