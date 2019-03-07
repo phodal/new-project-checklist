@@ -136,6 +136,7 @@ class Checkboxes {
   checkboxDetection(el) {
     // List of all variables needed for checking item
     const list = new Utils().variableList(el);
+    // console.log(list)
     if (el.checked) {
       // Check item if unchecked
       new Storage().checkingItem(list);

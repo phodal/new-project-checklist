@@ -10,11 +10,13 @@ class Utils {
   }
 
    variableList(el) {
+    console.log(el);
     let section = instance.getClosest(el, '.js-section');
     const sectionName = section.getAttribute('data-section');
     const sectionId = section.getAttribute('data-section-id');
     const subItemId = section.getAttribute('data-sub-id');
 
+    // console.log(subItemId, el, section)
     if (subItemId) {
       section = instance.getClosest(el, '.js-sub-section');
     }

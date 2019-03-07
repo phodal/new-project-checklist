@@ -90,6 +90,11 @@
   }
 }
 
+
+body .c-checklist__body input {
+  height: auto;
+}
+
 .c-checklist__subitems {
   margin-left: 20px;
   padding-bottom: 20px;
