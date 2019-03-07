@@ -152,6 +152,21 @@ class Storage {
       // Update progress bars
       new ProgressBar().updateProgressBar(sections[i], checkedItems);
     }
+
+    if (
+      localStorage.getItem(sectionName + '-sub') !== null ||
+      localStorage.getItem(sectionName) === undefined
+    ) {
+      const currentStorage = localStorage.getItem(sectionName);
+      const currentObj = JSON.parse(currentStorage);
+      const checkedItems = currentObj.length;
+      const itemsBySection = el.querySelectorAll('.js-item');
+
+      instance.loadItems(itemsBySection, currentObj);
+
+      // Update progress bars
+      new ProgressBar().updateProgressBar(sections[i], checkedItems);
+    }
   }
 
   readHideSections() {
