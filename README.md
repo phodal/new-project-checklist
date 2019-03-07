@@ -240,7 +240,7 @@ Explanation: What are we doing, where are we going?
 License
 ---
 
-Web based on [https://github.com/thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist)
+Web based on [https://github.com/thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) See `web/LICENSE` in this directory.
 
 [![Phodal's Idea](http://brand.phodal.com/shields/idea-small.svg)](http://ideas.phodal.com/)
 
