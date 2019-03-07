@@ -69,6 +69,10 @@ class Checkboxes {
       new Utils().visibityEl(item, '.c-tags', 'hide');
       new Utils().visibityEl(item, '.js-dropdown', 'hide');
 
+
+      if (subItemId) {
+        section.setAttribute('data-subitem-check', 'true');
+      }
       item.setAttribute('data-item-check', 'true');
 
       new Notation().updatePriority();
@@ -123,6 +127,10 @@ class Checkboxes {
         new Utils().visibityEl(list.item, '.js-dropdown');
 
         list.item.setAttribute('data-item-check', 'false');
+
+        if (list.subItemId) {
+          list.section.setAttribute('data-subitem-check', 'false');
+        }
 
         new Notation().updatePriority();
 

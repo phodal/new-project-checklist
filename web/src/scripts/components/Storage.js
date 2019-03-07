@@ -76,6 +76,8 @@ class Storage {
       console.log('error');
     }
 
+    console.log(list, list.itemId)
+
     if (storage === []) {
       storage.forEach(el => {
         if (el.id === list.itemId) {

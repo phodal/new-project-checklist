@@ -9,17 +9,18 @@ class Utils {
     return instance;
   }
 
-   variableList(el) {
-    console.log(el);
-    let section = instance.getClosest(el, '.js-section');
-    const sectionName = section.getAttribute('data-section');
+  variableList(el) {
+    let section;
+    let isSubItem = el.getAttribute('data-type') === 'subitem';
+    if (isSubItem) {
+      section = instance.getClosest(el, '.js-sub-section');
+    } else {
+      section = instance.getClosest(el, '.js-section');
+    }
+
+    let sectionName = section.getAttribute('data-section');
     const sectionId = section.getAttribute('data-section-id');
     const subItemId = section.getAttribute('data-sub-id');
-
-    // console.log(subItemId, el, section)
-    if (subItemId) {
-      section = instance.getClosest(el, '.js-sub-section');
-    }
 
     const item = instance.getClosest(el, '.js-item ');
 
@@ -31,6 +32,13 @@ class Utils {
       itemId = item.getAttribute('data-item-id');
       itemCheck = item.getAttribute('data-item-check');
       itemDropdown = item.getAttribute('data-item-dropdown');
+    }
+
+
+    if (isSubItem) {
+      sectionName = sectionName + '-sub';
+      section = instance.getClosest(el, '.js-sub-section');
+      itemId = subItemId;
     }
 
     return {
@@ -78,7 +86,8 @@ class Utils {
           let matches = (this.document || this.ownerDocument).querySelectorAll(
             s);
           let i = matches.length;
-          while ((--i >= 0 && matches.item(i) !== this)) {}
+          while ((--i >= 0 && matches.item(i) !== this)) {
+          }
           return i > -1;
         };
     }
@@ -90,6 +99,7 @@ class Utils {
 
     return null;
   }
+
   /* eslint-enable */
 }
 
