@@ -418,7 +418,7 @@ gulp.task('build', done => {
     ['lint-css'],
     ['compile-all-pug'],
     ['compile-styles', 'compress-images', 'webpack'],
-    ['cdn'],
+    // ['cdn'],
     ['copy'],
     ['minify-html'],
     done
