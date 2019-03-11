@@ -21,10 +21,10 @@ self.addEventListener("install", function(event) {
            after making HTTP requests for each of them.
         */
         return cache.addAll([
-          '/',
-          '/index.html',
-          '/styles/main.min.css',
-          '/scripts/app.bundle.js'
+          '',
+          'index.html',
+          'styles/main.min.css',
+          'scripts/app.bundle.js'
         ]);
       })
       .then(function() {
