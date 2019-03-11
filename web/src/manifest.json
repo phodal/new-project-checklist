@@ -1,7 +1,7 @@
 {
-    "short_name": "FE Checklist",
-    "name": "Front-End Checklist",
-    "start_url": "http://frontendchecklist.com/?utm_source=homescreen",
+    "short_name": "NP Checklist",
+    "name": "New Project Checklist",
+    "start_url": "https://phodal.github.io/new-project-checklist/",
     "icons": [
       {
         "src": "/android-chrome-192x192.png",
