@@ -50,7 +50,8 @@
                     +svg-icon.icon.icon-checkbox(data-icon-name='check')
                     +svg-icon.icon.icon-checked(data-icon-name='check')
 
-                    span.label__title #{subitem.title} #{subitem.description ? ':' : ''} #{subitem.description}
+                    span.label__title #{subitem.title}
+                      span.description #{subitem.description}
 
         .c-tags
           ul.c-tags__list

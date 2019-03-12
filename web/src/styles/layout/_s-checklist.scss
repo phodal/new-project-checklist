@@ -108,7 +108,7 @@ body .c-checklist__body input {
   }
 
   ul li span {
-    font-size: 12px !important;
+    font-size: 14px !important;
     line-height: 14px;
     margin-left: 12px;
   }
@@ -120,5 +120,10 @@ body .c-checklist__body input {
 
   span.label__title {
     order: 2;
+  }
+
+  span.description {
+    font-size: 12px !important;
+    font-weight: normal;
   }
 }

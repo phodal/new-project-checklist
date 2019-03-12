@@ -19,10 +19,12 @@
     "description": "文档即代码——好的文档应该是版本管理的。",
     "subitems": [
       {
-        "title": "Path to Production"
+        "title": "Path to Production",
+        "description": "旨在通过可视化的方式来展示项目的上线流程，并优化过程中的瓶颈问题。"
       },
       {
-        "title": " 上线及发布日记"
+        "title": " 上线及发布日记",
+        "description": ""
       },
       {
         "title": "项目相关的 wiki 和文档记录"
@@ -43,7 +45,8 @@
         "description": "如 C4Model 方式描述"
       },
       {
-        "title": "现有的技术栈及其关系"
+        "title": "现有的技术栈及其未来方案",
+        "description": ""
       }
     ],
     "tags": [
@@ -54,27 +57,31 @@
   {
     "title": "代码库",
     "priority": "High",
-    "description": "代码相关规范",
+    "description": "在代码库中拥有诸如搭建指南、架构决策记录、编码器配置等相应的事项。",
     "subitems": [
       {
-        "title": "搭建指南"
+        "title": "搭建指南",
+        "description": "这份指南应该随项目的代码一起分发。"
       },
       {
-        "title": "架构决策记录"
-      },
-      {
-        "title": "编辑器配置和代码风格规范",
+        "title": "架构决策记录",
         "description": "放置在代码库的 ``docs/adr`` 目录中"
       },
       {
-        "title": "模式和风格指南"
+        "title": "编辑器配置和代码风格规范",
+        "description": "使用诸如 editorconfig 这样的工具，来统一规范化代码，并采用 Lint 工具来分析代码 。"
+      },
+      {
+        "title": "模式和风格指南",
+        "description": "在项目中融入系统架构，如 Clean Architecture 和风格，并有明显的指引。"
       },
       {
         "title": "分支管理模式",
         "description": "GitFlow 或者 master，或者 Feature Branch。"
       },
       {
-        "title": "代码提交风格"
+        "title": "Hook",
+        "description": "拥有对应的 Hook 来规范代码，在提交代码（本地、服务器）之前进行相应的分析。"
       }
     ],
     "tags": [
