@@ -63,10 +63,18 @@
         "title": "架构决策记录"
       },
       {
-        "title": "编辑器配置和代码风格规范"
+        "title": "编辑器配置和代码风格规范",
+        "description": "放置在代码库的 ``docs/adr`` 目录中"
       },
       {
         "title": "模式和风格指南"
+      },
+      {
+        "title": "分支管理模式",
+        "description": "GitFlow 或者 master，或者 Feature Branch。"
+      },
+      {
+        "title": "代码提交风格"
       }
     ],
     "tags": [
