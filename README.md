@@ -41,12 +41,17 @@ Description: a good documentation should be versionable.
  - [ ] editor configuration and code style specification
  - [ ] mode and style guide
 
-**4.Project Evolution**
+**4.Security**
+
+ - [ ] test strategy.test layered, test pyramid.
+ - [ ] test automation. 
+
+**5.Project Evolution**
 
  - [ ] future technology stack
  - [ ] system evolution plan
 
-**5. Security**
+**6. Security**
 
  - [ ] security standard. Is safety more important, or is the experience more important?
  - [ ] data encrypt in the code.
@@ -158,8 +163,8 @@ Explanation: What are we doing, where are we going?
  - [ ] 代码提交风格。
 
 **4. 测试**
- - [ ] 测试层级。
- - [ ] 测试策略。
+ - [ ] 测试策略。测试层级, 测试金字塔。
+ - [ ] 自动化测试。
 
 **5. 项目演进**
  - [ ] 未来的技术栈

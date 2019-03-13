@@ -90,6 +90,24 @@
     ]
   },
   {
+    "title": "测试策略",
+    "priority": "High",
+    "description": "如何针对项目进行有效的测试",
+    "subitems": [
+      {
+        "title": "测试策略",
+        "description": "测试层级, 测试金字塔"
+      },
+      {
+        "title": "自动化测试"
+      }
+    ],
+    "tags": [
+      "all",
+      "technology"
+    ]
+  },
+  {
     "title": "项目演进",
     "priority": "High",
     "description": "未来的技术栈\n 系统的演进方案",
