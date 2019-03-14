@@ -175,6 +175,11 @@ Explanation: What are we doing, where are we going?
  - [ ] 代码中的数据加密。
  - [ ] 代码安全。
 
+**7. 质量**
+ - [ ] 项目质量跟踪。
+ - [ ] 代码质量可视化。
+ - [ ] 应用质量策略。
+
 ### Process
 
 **0. Project Process**
