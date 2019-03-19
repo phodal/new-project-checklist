@@ -160,7 +160,7 @@ Explanation: What are we doing, where are we going?
  - [ ] 编辑器配置和代码风格规范。
  - [ ] 模式和风格指南。
  - [ ] 分支管理模式。GitFlow 或者 master，或者 Feature Branch。
- - [ ] 代码提交风格。
+ - [ ] 代码提交风格。业务风格或者是开源软件风格？
 
 **4. 测试**
  - [ ] 测试策略。测试层级, 测试金字塔。
