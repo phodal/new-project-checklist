@@ -36,10 +36,12 @@ Description: a good documentation should be versionable.
 
 **3.Code base**
 
- - [ ] construction guide
- - [ ] architecture decision record
+ - [ ] setup guide
+ - [ ] architecture decision record. in ``docs/ard`` directory.
  - [ ] editor configuration and code style specification
  - [ ] mode and style guide
+ - [ ] version manager branch pattern. GitFlow or Feature Branch of Master Flow.
+ - [ ] commit message style. open source library style or business style
 
 **4.Security**
 
