@@ -26,6 +26,7 @@ Description: In terms of technology, what are we pursuing?
  - [ ] Path to Production
  - [ ] golive and release diary
  - [ ] other wikis and documentation
+ - [ ] Development specification
 
 Description: a good documentation should be versionable.
 
@@ -36,7 +37,7 @@ Description: a good documentation should be versionable.
 
 **3.Code base**
 
- - [ ] setup guide
+ - [ ] setup guide.Which is ``README``
  - [ ] architecture decision record. in ``docs/ard`` directory.
  - [ ] editor configuration and code style specification
  - [ ] mode and style guide
@@ -50,6 +51,7 @@ Description: a good documentation should be versionable.
 
 **5.Project Evolution**
 
+ - [ ] Technical risk.Need to spike before project start.
  - [ ] future technology stack
  - [ ] system evolution plan
 
@@ -58,6 +60,12 @@ Description: a good documentation should be versionable.
  - [ ] security standard. Is safety more important, or is the experience more important?
  - [ ] data encrypt in the code.
  - [ ] code security.
+
+**7. Quality**
+
+ - [ ] project quality tracking.
+ - [ ] visualization of code quality.
+ - [ ] quality strategy.
 
 ### Process
 
@@ -149,6 +157,7 @@ Explanation: What are we doing, where are we going?
  - [ ] Path to Production
  - [ ] 上线及发布日记
  - [ ] 项目相关的 wiki 和文档记录
+ - [ ] 开发规范
 
 说明：文档即代码——好的文档应该是版本管理的。
 
@@ -157,7 +166,7 @@ Explanation: What are we doing, where are we going?
   - [ ] 现有的技术栈及其关系
 
 **3. 代码库**
- - [ ] 搭建指南。
+ - [ ] 搭建指南。即 ``README``
  - [ ] 架构决策记录。放置在代码库的 ``docs/adr`` 目录中。
  - [ ] 编辑器配置和代码风格规范。
  - [ ] 模式和风格指南。
@@ -169,6 +178,7 @@ Explanation: What are we doing, where are we going?
  - [ ] 自动化测试。
 
 **5. 项目演进**
+ - [ ] 技术风险点。即需要提前 spike 调研的内容
  - [ ] 未来的技术栈
  - [ ] 系统的演进方案
 
