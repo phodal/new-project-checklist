@@ -71,7 +71,7 @@ Description: a good documentation should be versionable.
 
 **0. Project Process**
 
- - [ ] Project's Roadmap? Project duration, deadlive, etc.
+ - [ ] Project's Roadmap? Such as project deadline, milestone, plan (with interation plan).
  - [ ] features's lifecycle. Such as Story card workflow in agile
  - [ ] How to communicate? Such as IM, Email and agile daily standup, remote meeting, Retro, etc.
 
@@ -196,7 +196,7 @@ Explanation: What are we doing, where are we going?
 
 **0. Project Process**
 
- - [ ] 项目的 Roadmap？时间长短，上线时间等。
+ - [ ] 项目的 Roadmap？项目 Deadline，关键时间节点，项目规划等。
  - [ ] 项目功能的生命周期。如敏捷中的故事卡工作流
  - [ ] 沟通方式？如 IM，邮件，还有敏捷的每日站会，远程会议，Retro 等
 
