@@ -27,7 +27,12 @@
         "description": ""
       },
       {
-        "title": "项目相关的 wiki 和文档记录"
+        "title": "项目相关的 wiki 和文档记录",
+        "description": ""
+      },
+      {
+        "title": "开发规范",
+        "description": ""
       }
     ],
     "tags": [
@@ -80,8 +85,8 @@
         "description": "GitFlow 或者 master，或者 Feature Branch。"
       },
       {
-        "title": "Hook",
-        "description": "拥有对应的 Hook 来规范代码，在提交代码（本地、服务器）之前进行相应的分析。"
+        "title": "代码提交风格",
+        "description": "业务风格或者是开源软件风格？"
       }
     ],
     "tags": [
@@ -90,7 +95,7 @@
     ]
   },
   {
-    "title": "测试策略",
+    "title": "测试",
     "priority": "High",
     "description": "如何针对项目进行有效的测试",
     "subitems": [
@@ -113,6 +118,10 @@
     "description": "未来的技术栈\n 系统的演进方案",
     "subitems": [
       {
+        "title": "技术风险点",
+        "description": "即需要提前 spike 调研的内容"
+      },
+      {
         "title": "未来的技术栈"
       },
       {
@@ -127,7 +136,7 @@
   {
     "title": "安全",
     "priority": "High",
-    "description": "安全事件",
+    "description": "安全无小事",
     "subitems": [
       {
         "title": "安全标准",
@@ -138,6 +147,26 @@
       },
       {
         "title": "代码安全"
+      }
+    ],
+    "tags": [
+      "all",
+      "technology"
+    ]
+  },
+  {
+    "title": "质量",
+    "priority": "High",
+    "description": "",
+    "subitems": [
+      {
+        "title": "项目质量跟踪"
+      },
+      {
+        "title": "代码质量可视化"
+      },
+      {
+        "title": "应用质量策略"
       }
     ],
     "tags": [

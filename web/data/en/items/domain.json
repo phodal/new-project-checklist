@@ -8,18 +8,18 @@
   {
     "title": "业务需求",
     "priority": "Medium",
-    "description": "有没有接近全的需求列表。在一定的时间（如迭代内），需求应该是稳定的。",
+    "description": "",
     "subitems": [
       {
-        "title": "近全完整的需求列表",
-        "description": "在一定的时间（如迭代内），需求应该是稳定的。"
+        "title": "需求列表",
+        "description": "有没有接近全的需求列表？在一定的时间（如迭代内），需求应该是稳定的。"
       },
       {
         "title": "需求管理",
         "description": "需求是如何从口头到待办列表的？中间是不是存在不规范的问题"
       },
       {
-        "title": "业务变更"
+        "title": " 业务是如何进行变更的？"
       }
     ],
     "tags": ["all", "domain"]
